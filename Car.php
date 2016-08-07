@@ -2,26 +2,12 @@
 
 // Nossa Classe Carro
 
-class Car{
-    public $brand;
-    public $color;
-    public $engine;
+require_once("Vehicle.php");
 
-    //Metodos no PHP 
-    public function getBrand()
-    {
-        return $this->$brand;
-    }
+class Car extends Vehicle{
 
-    public function getColor()
-    {
-        return $this->$color;
-    }
-
-    public function getEngine()
-    {
-        return $this->$engine;
-    }
+    public $door;
+    
 
     //Assinatura com valor padrão
 

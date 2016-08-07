@@ -30,6 +30,7 @@ echo $p->getHello("Danilo");
 // Chamando as Classes no PHP 
 
 require_once("Car.php");
+require_once("Motorcycle.php");
 
 $ferrari = new Car;
 $mustang = new Car;
