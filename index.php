@@ -42,6 +42,10 @@ echo $ferrari->brand;
 echo $ferrari->color;
 echo $ferrari->engine;
 
+echo $ferrari->getBrand();
+echo $ferrari->getColor();
+echo $ferrari->getEngine();
+
 
 
 
