@@ -25,4 +25,17 @@ class People{
 $p = new People;
 echo $p->getHello("Danilo");
 
+// Iniciando com Orientação a Objetos
+
+// Chamando as Classes no PHP 
+
+require_once("Car.php");
+
+$ferrari = new Car;
+$mustang = new Car;
+
+
+
+
+
 ?>
