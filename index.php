@@ -34,6 +34,13 @@ require_once("Car.php");
 $ferrari = new Car;
 $mustang = new Car;
 
+$ferrari->brand = "Ferrari";
+$ferrari->color = "Red";
+$ferrari->engine = "V10";
+
+echo $ferrari->brand;
+echo $ferrari->color;
+echo $ferrari->engine;
 
 
 
