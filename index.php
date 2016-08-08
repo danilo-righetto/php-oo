@@ -32,8 +32,8 @@ echo $p->getHello("Danilo");
 require_once("Car.php");
 require_once("Motorcycle.php");
 
-$ferrari = new Car;
-$mustang = new Car;
+$ferrari = new Car("Ferrari", "Red");
+$mustang = new Car("Mustang", "Orange");
 
 $ferrari->brand = "Ferrari";
 $ferrari->color = "Red";

@@ -7,6 +7,13 @@ class Vehicle{
     public $color;
     public $engine;
 
+    // Trabalhando com construtor
+
+    function __construct($brand = null, $color = null) {
+        $this->brand = $brand;
+        $this->color = $color;
+    }
+
     //Metodos no PHP 
     public function getBrand()
     {
