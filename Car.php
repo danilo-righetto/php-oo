@@ -6,7 +6,12 @@ require_once("Vehicle.php");
 
 class Car extends Vehicle{
 
-    public $door;
+    private $door;
+
+    public function getDoor($door)
+    {
+        $this->door = $door;
+    }
     
 
     //Assinatura com valor padrão

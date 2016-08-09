@@ -41,8 +41,6 @@ $ferrari->engine = "V10";
 
 // Chamando um metodo da classe PAI
 
-
-
 echo $ferrari->brand;
 echo $ferrari->color;
 echo $ferrari->engine;
